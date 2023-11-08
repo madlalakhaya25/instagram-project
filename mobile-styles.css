@@ -1,0 +1,123 @@
+@media (max-width: 1000px) {
+    .sidebar {
+        display: none;
+    }
+    .content-container {
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-inner {
+        width: 100%;
+    }
+    .upload-button {
+        display: none;
+        background-color: #fd5c63; /* Instagram red color */
+        border-radius: 25px; /* Rounded corners */
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        margin-right: 10px; /* Adjust the margin as needed */
+      }
+      
+      /* Hover effect for Upload Button */
+      .upload-button:hover {
+        background-color: #3171e0;
+      }
+      
+      /* Styling for Logout Button */
+      .logout-btn {
+        display: none;
+        background-color: #fd5c63; /* Instagram red color */
+        border-radius: 25px; /* Rounded corners */
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      
+      /* Hover effect for Logout Button */
+      .logout-btn:hover {
+        background-color: #3171e0;
+      }
+      .navbar-inner {
+        width: 500px;
+        height: 100%;
+        display: flex;
+        padding: 0 20px;
+        align-items: center;
+        justify-content: space-between; /* Distribute items evenly along the main axis */
+      }
+      .logo {
+        width: 150px; /* Adjust the logo width */
+      }
+}
+
+@media (max-width: 640px) {
+    .content-container {
+        padding-top: 0px
+    }
+    .navbar-inner {
+        padding: 0;
+    }
+    .content {
+        margin: 0;
+    }
+    .search-bar {
+        display: none;
+    }
+    .header {
+        border: none;
+        background: transparent;
+    }
+    .upload-button {
+        display: none;
+        background-color: #fd5c63; /* Instagram red color */
+        border-radius: 25px; /* Rounded corners */
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        margin-right: 10px; /* Adjust the margin as needed */
+      }
+      
+      /* Hover effect for Upload Button */
+      .upload-button:hover {
+        background-color: #3171e0;
+      }
+      
+      /* Styling for Logout Button */
+      .logout-btn {
+        display: none;
+        background-color: #fd5c63; /* Instagram red color */
+        border-radius: 25px; /* Rounded corners */
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      
+      /* Hover effect for Logout Button */
+      .logout-btn:hover {
+        background-color: #3171e0;
+      }
+      .navbar-inner {
+        width: 500px;
+        height: 100%;
+        display: flex;
+        padding: 0 20px;
+        align-items: center;
+        justify-content: space-between; /* Distribute items evenly along the main axis */
+      }
+      .logo {
+        width: 120px; /* Adjust the logo width */
+      }
+}
