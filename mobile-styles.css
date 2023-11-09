@@ -55,6 +55,48 @@
       .logo {
         width: 150px; /* Adjust the logo width */
       }
+      #send.btn.btn-secondary, #update-post.btn.btn-secondary {
+        background-color: #fd5c63; /* Instagram red color */
+        color: white; /* White text color */
+        padding: 12px 24px; /* Padding around the text */
+        border: none; /* Remove borders */
+        border-radius: 25px; /* Rounded corners */
+        cursor: pointer; /* Show a pointer cursor on hover */
+        font-size: 16px; /* Font size of the text */
+        transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for background color and box shadow */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+      }
+      
+      #send.btn.btn-secondary:hover, #update-post.btn.btn-secondary:hover {
+        background-color: #ff4d52; /* Slightly darker shade on hover */
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+      }
+      
+      #update-post.btn.btn-secondary {
+        background-color: #fd5c63; /* Instagram red color */
+        border-radius: 25px; /* Rounded corners */
+        color: white; /* White text color */
+        padding: 12px 24px; /* Padding around the text */
+        border: none; /* Remove borders */
+        cursor: pointer; /* Show a pointer cursor on hover */
+        font-size: 16px; /* Font size of the text */
+        transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for background color and box shadow */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+      }
+      
+      #update-post.btn.btn-secondary:hover {
+        background-color: #ff4d52; /* Slightly darker shade on hover */
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+      }
+      .post-container {
+        background-color: white;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        border: white;
+      }
+      
 }
 
 @media (max-width: 640px) {
@@ -120,4 +162,46 @@
       .logo {
         width: 120px; /* Adjust the logo width */
       }
+      #send.btn.btn-secondary, #update-post.btn.btn-secondary {
+        background-color: #fd5c63; /* Instagram red color */
+        color: white; /* White text color */
+        padding: 12px 24px; /* Padding around the text */
+        border: none; /* Remove borders */
+        border-radius: 25px; /* Rounded corners */
+        cursor: pointer; /* Show a pointer cursor on hover */
+        font-size: 16px; /* Font size of the text */
+        transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for background color and box shadow */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+      }
+      
+      #send.btn.btn-secondary:hover, #update-post.btn.btn-secondary:hover {
+        background-color: #ff4d52; /* Slightly darker shade on hover */
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+      }
+      
+      #update-post.btn.btn-secondary {
+        background-color: #fd5c63; /* Instagram red color */
+        border-radius: 25px; /* Rounded corners */
+        color: white; /* White text color */
+        padding: 12px 24px; /* Padding around the text */
+        border: none; /* Remove borders */
+        cursor: pointer; /* Show a pointer cursor on hover */
+        font-size: 16px; /* Font size of the text */
+        transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for background color and box shadow */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+      }
+      
+      #update-post.btn.btn-secondary:hover {
+        background-color: #ff4d52; /* Slightly darker shade on hover */
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+      }
+      .post-container {
+        background-color: white;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        border: white;
+      }
+      
 }
