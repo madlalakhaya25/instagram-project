@@ -24,6 +24,7 @@ class App {
     // DOM FUNCTIONALITIES
     this.$authUser = document.querySelector(".auth-user");
     this.$uploadBtn = document.querySelector(".upload-container");
+    this.$uploadBtn = document.querySelector(".margin-left-1");
     this.$postContainer = document.querySelector(".post-container");
     this.$filesToUpload = document.querySelector("#files");
     this.$sendBtn = document.querySelector("#send");
