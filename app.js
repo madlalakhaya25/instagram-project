@@ -24,7 +24,7 @@ class App {
     // DOM FUNCTIONALITIES
     this.$authUser = document.querySelector(".auth-user");
     this.$uploadBtn = document.querySelector(".upload-container");
-    this.$uploadBtn = document.querySelector(".margin-left-1");
+    this.$uploadBtn1 = document.querySelector(".margin-left-1");
     this.$postContainer = document.querySelector(".post-container");
     this.$filesToUpload = document.querySelector("#files");
     this.$sendBtn = document.querySelector("#send");
@@ -101,6 +101,9 @@ class App {
       this.uploadToFB();
     });
     this.$uploadBtn.addEventListener("click", (event) => {
+      this.redirectToPost(event);
+    });
+    this.$uploadBtn1.addEventListener("click", (event) => {
       this.redirectToPost(event);
     });
     this.$authUser.addEventListener("click", (event) => {

@@ -150,6 +150,11 @@
   .margin-left {
     margin-left: 20px; /* Adjust the left margin */
   }
+
+  .margin-left-1 {
+    margin-left: 20px; /* Adjust the left margin */
+  }
+  
   
   .upload-container {
     display: flex;
